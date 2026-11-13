@@ -6,7 +6,7 @@
 /*   By: abenrach <abenrach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 15:51:33 by abenrach          #+#    #+#             */
-/*   Updated: 2026/11/10 23:47:33 by abenrach         ###   ########.fr       */
+/*   Updated: 2026/11/13 17:11:20 by abenrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -136,6 +136,7 @@ void    Database::find_line_in_csv(std::string line)
     }
     else
     {
+        std::cout << std::setprecision(15); // par defaut le cout affiche les valeur en ecriture scientifique donc voici la ligne pour y remedier
         std::cout << it->first << " => " << nb << " = " << (it->second * nb) << std::endl;
     }
 }

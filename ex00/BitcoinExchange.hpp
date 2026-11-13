@@ -6,7 +6,7 @@
 /*   By: abenrach <abenrach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 15:53:34 by abenrach          #+#    #+#             */
-/*   Updated: 2026/11/10 23:46:12 by abenrach         ###   ########.fr       */
+/*   Updated: 2026/11/13 16:34:59 by abenrach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <fstream>
 # include <algorithm>
 # include <map>
+# include <iomanip>
 
 class   Database
 {
